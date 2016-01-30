@@ -1,38 +1,42 @@
 {% extends "base.html" %}
 
 {% block body %}
-<div class="jumbotron">
-  <div class="container">
-    <h1>Welcome to Cactus!</h1>
-    <p>Get started with this template based on HTML 5 Boilerplate. Go ahead, explore!</p>
-  </div>
+
+<div class="header">
+    <h1>
+  <a id="design-expo-2016" class="anchor" href="#design-expo-2016" aria-hidden="true"></a>Design Expo 2016</h1>
+    <p><strong>Mike Dory</strong>
+        <br>
+        <strong>Wednesdays, 9:30-12 (2/17 - 4/6)</strong></p>
+</div>
+<div class="content">
+
+{% filter markdown %}
+# Design Expo 2016
+**Mike Dory**  
+**Wednesdays, 9:30-12 (2/17 - 4/6)**
+
+## OVERVIEW
+
+Design Expo is an eight-week design challenge — seven weeks during the semester, and one after. Students will work in groups to understand, and then respond to, a brief from Microsoft Research (MSR), and then present their work for feedback and iteration.
+
+This year's theme is "Achieving Symbiosis and the Conversational User Interface (CUI)," and allows for a wide variety of interpretations. Given the scale and range of the topic, it will be critical for students to focus in on a particular community, type of interface, and problem that has impact. Students will form their own small groups of 3-5 people (before applying), and each group will research the challenge, propose possible innovations or solutions, and then iterate those proposals. A successful proposal can be a demo ("We've imagined a new possibility, and this is what it would look like") or a prototype ("We've imagined a new possibility, and we built a small version of it.")
+
+At the end of the course, one group will be selected by outside reviewers to travel to Redmond, WA in July to present their proposal at MSR's Faculty Research Summit along with other students from top institutions around the world.
+
+This course will run from 9:30-12 for seven sessions, and will meet for one additional session in July, prior to the trip to Microsoft.
+
+
+## COMPENSATION
+
+Design Expo an extra-curricular workshop. As such, accepted groups will be awarded a small research stipend, pending a successful completion of the program.
+
+
+## SPECIFICATIONS
+
+Students will submit their proposals as a group by February 8th, and selected groups will be notified of their acceptance by February 12th.
+{% endfilter %}
+
 </div>
 
-<div class="container">
-  <!-- Example row of columns -->
-  <div class="row">
-
-    <div class="col-lg-3">
-      <h2>Full featured template engine</h2>
-      <p>Cactus uses and extends Django's templating engine. If you've built sites using Django before, you'll feel right at home.</p>
-    </div>
-
-    <div class="col-lg-3">
-      <h2>Pretty URLs</h2>
-      <p>Cactus can prettify URLs, so you can turn <code>/about.html</code> into a fancier <code>/about/</code>.</p>
-    </div>
-
-    <div class="col-lg-3">
-      <h2>Minification & Fingerprinting</h2>
-      <p>For maximum performance, Cactus can minify and fingerprint your static assets. As for your pages, Cactus will automatically compress them.</p>
-   </div>
-
-    <div class="col-lg-3">
-      <h2>And much more</h2>
-      <p>There's of course a lot more you can do with Cactus. Plus, Cactus's plugin framework lets you easily extend its functionality.</p>
-   </div>
-
-
-  </div>
-</div>
 {% endblock %}
