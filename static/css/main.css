@@ -1447,23 +1447,23 @@ a.pure-button-primary {
 
 }
 
-@media (max-width: 58em) {
+@media (max-width: 62em) {
     /* Only apply this when the window is smaller. Otherwise, the following
     case results in extra padding on the left:
         * Make the window small. (Rotate to portrait on a mobile.)
         * Tap the menu to trigger the active state.
         * Make the window large again. (Rotate to landscape on mobile.)
     */
-/*    #layout.active {
+    #layout.active {
         position: relative;
-        left: 160px;*/
+        left: 160px;
     }
 }
 
-@media (min-width: 58em) {
+@media (min-width: 62em) {
 
-/*    #layout {
-        padding-left: 160px;
+    #layout {
+        padding-left: 160px; /* left col width "#menu" */
         left: 0;
     }
     #menu {
@@ -1476,7 +1476,7 @@ a.pure-button-primary {
     }
     #layout.active .menu-link {
         left: 160px;
-    }*/
+    }
 
 }
 
