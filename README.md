@@ -4,7 +4,7 @@
 
 ## OVERVIEW
 
-Design Expo is an eight-week design challenge run through [NYU ITP](http://itp.nyu.edu) — seven weeks during the semester, and one after. Students will work in groups to understand, and then respond to, a brief from Microsoft Research (MSR), and then present their work for feedback and iteration. Each week will also feature guest presenters from the practitioners from the likes of Google, Microsoft, Kickstarter, and more.
+Design Expo is an eight-week design challenge for students of [NYU ITP](http://itp.nyu.edu) — seven weeks during the semester, and one after. Students will work in groups to understand, and then respond to, a brief from Microsoft Research (MSR), and then present their work for feedback and iteration. Each week will also feature guest presenters from the practitioners from the likes of Google, Microsoft, Kickstarter, and more.
 
 This year's theme is "Achieving Symbiosis and the Conversational User Interface (CUI)," and allows for a wide variety of interpretations. Given the scale and range of the topic, it will be critical for students to focus in on a particular community, type of interface, and problem that has impact. Students will form their own small groups of 3-5 people (before applying), and each group will research the challenge, propose possible innovations or solutions, and then iterate those proposals. A successful proposal can be a demo ("We've imagined a new possibility, and this is what it would look like") or a prototype ("We've imagined a new possibility, and we built a small version of it.")
 
