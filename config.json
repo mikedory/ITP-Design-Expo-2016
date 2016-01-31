@@ -9,4 +9,5 @@
         "js",
         "css"
     ],
+    "prettify": true
 }
