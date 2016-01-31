@@ -4,5 +4,9 @@
     "aws-bucket-website": "designexpo2016.dory.me.s3-website-us-east-1.amazonaws.com",
     "optimize": [
         "css"
-    ]
+    ],
+    "fingerprint": [
+        "js",
+        "css"
+    ],
 }
