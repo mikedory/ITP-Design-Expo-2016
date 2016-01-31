@@ -1,5 +1,8 @@
 {
     "aws-access-key": "AKIAJO432SVIF2QUBP3A",
     "aws-bucket-name": "designexpo2016.dory.me",
-    "aws-bucket-website": "designexpo2016.dory.me.s3-website-us-east-1.amazonaws.com"
+    "aws-bucket-website": "designexpo2016.dory.me.s3-website-us-east-1.amazonaws.com",
+    "optimize": [
+        "css"
+    ]
 }
