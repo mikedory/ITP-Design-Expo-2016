@@ -4,18 +4,42 @@
 
 ## OVERVIEW
 
-Design Expo is an eight-week design challenge for students of [NYU ITP](http://itp.nyu.edu) — seven weeks during the semester, and one after. Students will work in groups to understand, and then respond to, a brief from Microsoft Research (MSR), and then present their work for feedback and iteration. Each week will also feature guest presenters from the practitioners from the likes of Google, Microsoft, Kickstarter, and more.
+Design Expo is an eight-week design challenge for students of [NYU ITP](http://itp.nyu.edu) — seven weeks during the semester, and one after. Students will work in groups to understand, and then respond to, a brief from Microsoft Research (MSR), and then present their work for feedback and iteration. 
 
-This year's theme is "Achieving Symbiosis and the Conversational User Interface (CUI)," and allows for a wide variety of interpretations. Given the scale and range of the topic, it will be critical for students to focus in on a particular community, type of interface, and problem that has impact. Students will form their own small groups of 3-5 people (before applying), and each group will research the challenge, propose possible innovations or solutions, and then iterate those proposals. A successful proposal can be a demo ("We've imagined a new possibility, and this is what it would look like") or a prototype ("We've imagined a new possibility, and we built a small version of it.")
+---
 
-At the end of the workshop one group will be selected by outside reviewers to travel to Redmond, WA in July to present their proposal at MSR's Faculty Research Summit along with other students from top institutions around the world.
+## Installing
 
-This workshop will run from 9:30-12 for seven sessions, and will meet for one additional session in July, prior to the trip to Microsoft.
+This app is built on [Cactus](https://github.com/koenbok/Cactus), so it's assumed you've already either installed that, or aren't planning on using the handy tools. To install, run:
 
-## COMPENSATION
+    sudo easy_install cactus
 
-Design Expo an extra-curricular workshop. As such, accepted groups will be awarded a small research stipend, pending a successful completion of the program.
+I mean, they say to use `easy_install`, but assumedly doing so via Pip in a Virtualenv would suck less.  `¯\_(ツ)_/¯`.
 
-## SPECIFICATIONS
 
-Students will submit their proposals as a group by February 8th at midnight. Selected groups will be notified of their acceptance by February 12th.
+## Using
+
+Your options for building and designing this are the standard Cactus ones.
+
+When developing:
+
+    cactus watch
+
+To deploy
+
+    cactus deploy
+
+Deploy, in this case, assumes an s3 bucket. You could do this on [Surge](http://surge.sh) or something if that were your jam instead, I bet.
+
+
+## Requirements
+
+Aside from Python and Cactus, this app uses YUICSSOptimizer for CSS. You can install that with Homebrew:
+
+    brew install yuicompressor
+
+Cactus likes to use the Clojure Compiler for JS, which you could install thusly:
+
+    brew install closure-compiler
+
+That would have made me install Java again on my poor machine, so I have opted to pass, but add `.js` to the `optimize` array in `config.json` if you decide you're braver than I.
