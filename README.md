@@ -21,6 +21,10 @@ I mean, they say to use `easy_install`, but assumedly doing so via Pip in a Virt
 
 Your options for building and designing this are the standard Cactus ones.
 
+To build:
+
+    cactus build
+
 When developing:
 
     cactus watch
