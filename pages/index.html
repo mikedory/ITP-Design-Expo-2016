@@ -1,18 +1,16 @@
 {% extends "base.html" %}
-
 {% block body %}
+{% filter markdown %}
 
 <!--
   Ohai
 -->
 
-{% filter markdown %}
 Wednesdays, 9:30-12  (2/17 - 4/6)  
 NYU ITP, Rm 20
 
 Mike Dory  | [michael.dory@nyu.edu](mailto:michael.dory@nyu.edu)  
 Office hours: Tuesdays, 6:30-8:30 (or by request)
-{% endfilter %}
 
 
 <!--
@@ -20,7 +18,6 @@ Office hours: Tuesdays, 6:30-8:30 (or by request)
 -->
 
 <a id="overview" class="anchor"></a>
-{% filter markdown %}
 ## OVERVIEW
 
 Design Expo is an eight-week design challenge — seven weeks during the semester, and one after. Students will work in groups to understand, and then respond to, a brief from Microsoft Research (MSR), and then present their work for feedback and iteration. Each week will also feature guest presenters from the likes of Google, Microsoft, Kickstarter, and more.
@@ -57,14 +54,12 @@ The following texts offer great insights into the the subject matter, and are re
 
 ---
 
-{% endfilter %}
 
 <!--
   Session listing
 -->
 
 <a id="outline" class="anchor"></a>
-{% filter markdown %}
 ## PROGRAM OUTLINE
 
 <a id="week1" class="anchor"></a>
